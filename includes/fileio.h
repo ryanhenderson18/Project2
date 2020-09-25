@@ -3,7 +3,6 @@
 
 #include <string>
 #include <vector>
-#include <iostream>
 #include "../includes/constants.h"
 
 //attempt to open file 'filename' and read in all data

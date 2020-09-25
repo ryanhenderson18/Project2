@@ -9,12 +9,10 @@ all: fileio.o utils.o proj_refactor_file.o
 #compile the .cpp file to an object file (-c)
 fileio.o: ../fileio/fileio.cpp ../includes/fileio.h ../includes/constants.h
 	g++ $(CFLAGS) -c ../fileio/fileio.cpp
-	
-#TODO 
+	 
 utils.o: ../utils/utils.cpp ../includes/utils.h ../includes/constants.h
 	g++ $(CFLAGS) -c ../utils/utils.cpp
 	
-#TODO
 proj_refactor_file.o: proj_refactor_file.cpp ../includes/utils.h ../includes/fileio.h ../includes/constants.h
 	g++ $(CFLAGS) -c proj_refactor_file.cpp	
 	
